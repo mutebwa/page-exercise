@@ -1,0 +1,161 @@
+body {
+    font-family: Roboto, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: #1f2937;
+    padding: 48px;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.hero .text div {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .text button {
+    padding: 12px;
+    width: 96px;
+
+}
+
+.image img {
+    width: 480px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header {
+    padding: 0 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    font-size: 36px;
+    padding: 180px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    font-weight: 900;
+    justify-content: end;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.action {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 56px;
+}
+
+.banner {
+    display: flex;
+    background-color: #3882f6;
+    padding: 24px;
+    gap: 16px;
+    color: #f9faf8;
+    border-radius: 12px;
+}
+
+.text {
+    width: 400px; 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #1f2937;
+    font-size: 18px;
+    height: 48px;
+    padding: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 48px;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 24px;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 12px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.box img {
+    border-radius: 12px;
+    background-color: #3882f6;
+    padding: 4px;
+    width: 240px;
+    height: 240px;
+}
